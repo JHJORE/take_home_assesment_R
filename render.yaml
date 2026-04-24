@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: readily-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install ".[dev]"
+    startCommand: uvicorn readily.interface.api.app:create_app --factory --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12"
+      - key: GEMINI_API_KEY
+        value: demo
+      - key: CORS_ORIGINS
+        sync: false
+
+  - type: web
+    name: readily-web
+    runtime: node
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: NEXT_PUBLIC_API_BASE_URL
+        sync: false
