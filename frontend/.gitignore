@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.DS_Store
+next-env.d.ts
+*.log
+.turbo
+# Copied from pdfjs-dist by `npm run postinstall`.
+public/pdf.worker.min.js

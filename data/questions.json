@@ -1,0 +1,343 @@
+[
+  {
+    "number": 1,
+    "text": "Does the P&P state that under existing Contract requirements and state law, MCPs are required to provide hospice services upon Member election to start and receive such care services? Hospice coverage is provided in benefit periods: Two 90-day periods, beginning on the date of hospice election; followed by unlimited 60-day periods. A benefit period starts the day the Member receives hospice care and ends when the 90-day or 60-day period ends.",
+    "reference": "(Reference: APL 25-008, page 1)",
+    "claims": [
+      {
+        "claim": "Under existing Department of Health Care Services (DHCS) contract requirements and state law, Managed Care Plans (MCPs) are required to provide hospice services upon Managed Care Plan Member election to start and receive hospice care services.",
+        "source_text": "under existing Contract requirements and state law, MCPs are required to provide hospice services upon Member election to start and receive such care services",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "hospice care",
+            "Member election",
+            "contractual requirements"
+          ],
+          "entity_refs": [
+            "MCP",
+            "Member",
+            "Contract"
+          ]
+        }
+      },
+      {
+        "claim": "Hospice coverage for Managed Care Plan Members is provided in two 90-day benefit periods, beginning on the date of hospice election.",
+        "source_text": "Hospice coverage is provided in benefit periods: Two 90-day periods, beginning on the date of hospice election",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "hospice coverage",
+            "benefit period",
+            "hospice election"
+          ],
+          "entity_refs": [
+            "Election Statement"
+          ]
+        }
+      },
+      {
+        "claim": "The initial two 90-day hospice benefit periods for Managed Care Plan Members are followed by unlimited 60-day periods.",
+        "source_text": "followed by unlimited 60-day periods.",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "hospice coverage",
+            "subsequent benefit periods"
+          ],
+          "entity_refs": []
+        }
+      },
+      {
+        "claim": "A hospice benefit period starts the day the Managed Care Plan (MCP) Member receives hospice care and ends when the 90-day or 60-day period ends.",
+        "source_text": "A benefit period starts the day the Member receives hospice care and ends when the 90-day or 60-day period ends.",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "benefit period",
+            "hospice care"
+          ],
+          "entity_refs": [
+            "Member",
+            "Benefit Period"
+          ]
+        }
+      }
+    ],
+    "candidate_codes": [
+      "GG.1503"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal"
+      ],
+      "reference": "APL 25-008",
+      "question_topics": [
+        "hospice services",
+        "benefit period",
+        "election of hospice",
+        "Medi-Cal Managed Care"
+      ]
+    }
+  },
+  {
+    "number": 2,
+    "text": "Does the P&P state that Members who qualify for and elect to receive hospice care services remain enrolled in an MCP while receiving such services?",
+    "reference": "(Reference: APL 25-008, page 1)",
+    "claims": [
+      {
+        "claim": "Managed Care Plan (MCP) Members who qualify for and elect to receive hospice care services remain enrolled in an MCP while receiving hospice care services.",
+        "source_text": "Members who qualify for and elect to receive hospice care services remain enrolled in an MCP while receiving such services",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "hospice care",
+            "continued enrollment",
+            "MCP eligibility"
+          ],
+          "entity_refs": [
+            "Member",
+            "MCP"
+          ]
+        }
+      }
+    ],
+    "candidate_codes": [
+      "GG.1503"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal"
+      ],
+      "reference": "APL 25-008",
+      "question_topics": [
+        "MCP enrollment",
+        "hospice care eligibility"
+      ]
+    }
+  },
+  {
+    "number": 3,
+    "text": "Does the P&P state that to avoid problems caused by late referrals, MCP P&Ps should clarify and detail how Members may access hospice care services in a timely manner, preferably within 24 hours of the request from in-Network hospice Providers?",
+    "reference": "(Reference: APL 25-008, pages 1-2)",
+    "claims": [
+      {
+        "claim": "Managed Care Plan (MCP) Policies and Procedures (P&Ps) should clarify and detail how MCP Members may access hospice care services in a timely manner, preferably within 24 hours of the request from in-Network hospice Providers.",
+        "source_text": "MCP P&Ps should clarify and detail how Members may access hospice care services in a timely manner, preferably within 24 hours of the request from in-Network hospice Providers",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "timely access",
+            "hospice referral",
+            "in-Network Provider"
+          ],
+          "entity_refs": [
+            "MCP",
+            "Member",
+            "Provider"
+          ]
+        }
+      }
+    ],
+    "candidate_codes": [
+      "GG.1503"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal"
+      ],
+      "reference": "APL 25-008",
+      "question_topics": [
+        "hospice referral",
+        "timely access to care"
+      ]
+    }
+  },
+  {
+    "number": 4,
+    "text": "Does the P&P state MCPs may restrict coverage to in-Network Providers, unless Medically Necessary services are not available in-Network, consistent with contractual requirements for covered Medi-Cal benefits?",
+    "reference": "(Reference: APL 25-008, page 2)",
+    "claims": [
+      {
+        "claim": "Managed Care Plans (MCPs) may restrict hospice coverage to in-Network Providers, unless Medically Necessary services are not available in-Network, consistent with contractual requirements for covered Medi-Cal benefits.",
+        "source_text": "MCPs may restrict coverage to in-Network Providers, unless Medically Necessary services are not available in-Network, consistent with contractual requirements for covered Medi-Cal benefits",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "in-Network Provider",
+            "Medically Necessary",
+            "Medi-Cal benefits",
+            "coverage restriction"
+          ],
+          "entity_refs": [
+            "MCP",
+            "Provider",
+            "Medically Necessary",
+            "Medi-Cal"
+          ]
+        }
+      }
+    ],
+    "candidate_codes": [
+      "GG.1503"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal"
+      ],
+      "reference": "APL 25-008",
+      "question_topics": [
+        "Provider Network",
+        "Medically Necessary services",
+        "Medi-Cal benefits"
+      ]
+    }
+  },
+  {
+    "number": 5,
+    "text": "Does the P&P state Members who elect hospice care are entitled to curative treatment for conditions unrelated to their terminal illness?",
+    "reference": "(Reference: APL 25-008, page 2)",
+    "claims": [
+      {
+        "claim": "Managed Care Plan (MCP) Members who elect hospice care are entitled to curative treatment for conditions unrelated to their terminal illness.",
+        "source_text": "Members who elect hospice care are entitled to curative treatment for conditions unrelated to their terminal illness",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "curative treatment",
+            "terminal illness",
+            "hospice election"
+          ],
+          "entity_refs": [
+            "Member",
+            "Terminal Illness"
+          ]
+        }
+      }
+    ],
+    "candidate_codes": [
+      "GG.1503"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal"
+      ],
+      "reference": "APL 25-008",
+      "question_topics": [
+        "curative treatment",
+        "terminal illness",
+        "hospice election"
+      ]
+    }
+  },
+  {
+    "number": 6,
+    "text": "Does the P&P state that for out-of-Network hospice Providers, the MCP should seek an agreement, such as a single case agreement or a letter of agreement, to cover hospice care services, and that agreements with the out-of-Network hospice Provider require the Provider to submit necessary documentation for the MCP to ensure that hospice services are provided in accordance with coverage policy, including Medical Necessity?",
+    "reference": "(Reference: APL 25-008, page 2)",
+    "claims": [
+      {
+        "claim": "For out-of-Network hospice Providers, the Managed Care Plan (MCP) should seek an agreement, such as a single case agreement or a letter of agreement, to cover hospice care services.",
+        "source_text": "for out-of-Network hospice Providers, the MCP should seek an agreement, such as a single case agreement or a letter of agreement, to cover hospice care services",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "out-of-Network Provider",
+            "single case agreement",
+            "letter of agreement",
+            "hospice care"
+          ],
+          "entity_refs": [
+            "Provider",
+            "MCP",
+            "Single Case Agreement",
+            "Letter of Agreement"
+          ]
+        }
+      },
+      {
+        "claim": "Agreements between Managed Care Plans (MCPs) and out-of-Network hospice Providers require the Provider to submit necessary documentation for the MCP to ensure hospice services are provided in accordance with coverage policy and Medical Necessity.",
+        "source_text": "agreements with the out-of-Network hospice Provider require the Provider to submit necessary documentation for the MCP to ensure that hospice services are provided in accordance with coverage policy, including Medical Necessity",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "documentation requirement",
+            "coverage policy",
+            "Medical Necessity",
+            "out-of-Network Provider"
+          ],
+          "entity_refs": [
+            "Provider",
+            "MCP",
+            "Medical Necessity"
+          ]
+        }
+      }
+    ],
+    "candidate_codes": [
+      "GG.1503"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal"
+      ],
+      "reference": "APL 25-008",
+      "question_topics": [
+        "out-of-Network Provider",
+        "single case agreement",
+        "Medical Necessity"
+      ]
+    }
+  },
+  {
+    "number": 7,
+    "text": "Does the P&P state that while Prior Authorization for hospice services is restricted, based on the level of care, MCPs are required to review documentation to avoid Fraud, Waste, and Abuse?",
+    "reference": "(Reference: APL 25-008, page 2)",
+    "claims": [
+      {
+        "claim": "Prior Authorization by Managed Care Plans (MCPs) for hospice services is restricted based on the level of care.",
+        "source_text": "Prior Authorization for hospice services is restricted, based on the level of care",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "Prior Authorization",
+            "level of care",
+            "hospice care"
+          ],
+          "entity_refs": [
+            "Prior Authorization"
+          ]
+        }
+      },
+      {
+        "claim": "Managed Care Plans (MCPs) are required to review hospice documentation to avoid Fraud, Waste, and Abuse.",
+        "source_text": "MCPs are required to review documentation to avoid Fraud, Waste, and Abuse",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "documentation review",
+            "Fraud Waste and Abuse",
+            "compliance monitoring"
+          ],
+          "entity_refs": [
+            "MCP",
+            "Fraud Waste and Abuse"
+          ]
+        }
+      }
+    ],
+    "candidate_codes": [
+      "GG.1503"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal"
+      ],
+      "reference": "APL 25-008",
+      "question_topics": [
+        "Prior Authorization",
+        "Fraud Waste and Abuse",
+        "hospice services"
+      ]
+    }
+  }
+]

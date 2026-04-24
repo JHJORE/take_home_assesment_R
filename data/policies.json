@@ -1,0 +1,802 @@
+[
+  {
+    "meta": {
+      "code": "GG.1503",
+      "file_path": "ENG #4/Public Policies/GG/GG.1503_CEO20240924_v20240901.pdf",
+      "title": "Hospice Coverage for Medi-Cal Managed Care Plan Members",
+      "department": "Medical Management",
+      "section": "Utilization Management",
+      "applicable_to": [
+        "Medi-Cal"
+      ],
+      "effective_date": "2021-03-01",
+      "revised_date": "2024-09-01",
+      "ceo_approval": "/s/ Michael Hunn 09/24/2024",
+      "document_topics": [
+        "hospice coverage",
+        "Member election",
+        "benefit period",
+        "in-Network Provider",
+        "out-of-Network Provider",
+        "single case agreement",
+        "letter of agreement",
+        "Medical Necessity",
+        "Prior Authorization",
+        "Fraud Waste and Abuse",
+        "curative treatment"
+      ],
+      "entity_refs": [
+        "APL 25-008",
+        "DHCS",
+        "Medi-Cal",
+        "Member",
+        "Provider",
+        "MCP",
+        "Benefit Period",
+        "Election Statement",
+        "Terminal Illness",
+        "Single Case Agreement",
+        "Letter of Agreement",
+        "Medical Necessity",
+        "Prior Authorization",
+        "Fraud Waste and Abuse"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "II.A Hospice Coverage and Member Election",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "hospice coverage",
+            "Member election",
+            "continued enrollment"
+          ],
+          "entity_refs": [
+            "APL 25-008",
+            "DHCS",
+            "Member",
+            "MCP"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "CalOptima Health shall ensure Managed Care Plan Members receive Hospice Care upon election, in accordance with DHCS contract requirements and state law.",
+            "source_text": "CalOptima Health and its Health Networks shall be responsible for ensuring the provision of Hospice Care services for Terminally Ill Members",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "hospice care",
+                "Member election",
+                "contractual requirements"
+              ],
+              "entity_refs": [
+                "DHCS",
+                "MCP",
+                "Member",
+                "Contract"
+              ]
+            }
+          },
+          {
+            "claim": "Managed Care Plan Members who elect hospice care remain enrolled in the MCP and continue to receive all non-terminal-illness benefits through the plan.",
+            "source_text": "CalOptima Health and its Health Networks, in accordance with the Health Network-specific DOFR, are responsible for the provision of all Medically Necessary Covered Services not related to a Member\u2019s Terminal Illness",
+            "page": 6,
+            "metadata": {
+              "topic_keywords": [
+                "hospice care",
+                "continued enrollment",
+                "MCP eligibility"
+              ],
+              "entity_refs": [
+                "Member",
+                "MCP"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "II.B Hospice Benefit Periods",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "benefit period",
+            "hospice election"
+          ],
+          "entity_refs": [
+            "Benefit Period",
+            "Election Statement"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "Hospice coverage for Managed Care Plan Members is provided in two 90-day benefit periods, beginning on the date of hospice election.",
+            "source_text": "A Member may elect to receive hospice benefits for two (2) election periods consisting of ninety (90) calendar days each",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "hospice coverage",
+                "benefit period",
+                "hospice election"
+              ],
+              "entity_refs": [
+                "Election Statement",
+                "Benefit Period"
+              ]
+            }
+          },
+          {
+            "claim": "After the initial two 90-day benefit periods, Managed Care Plan Members are entitled to unlimited 60-day hospice benefit periods.",
+            "source_text": "an unlimited number of subsequent periods of sixty (60) calendar days each",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "hospice coverage",
+                "subsequent benefit periods"
+              ],
+              "entity_refs": []
+            }
+          },
+          {
+            "claim": "Each hospice benefit period starts the day the Managed Care Plan Member first receives hospice care and ends when the corresponding 90-day or 60-day period elapses.",
+            "source_text": "At any time during an election period, a Member may elect to revoke or modify Hospice Care.",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "benefit period",
+                "hospice care"
+              ],
+              "entity_refs": [
+                "Member",
+                "Benefit Period"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "III.A Timely Access and Referrals",
+        "page": 3,
+        "metadata": {
+          "topic_keywords": [
+            "timely access",
+            "hospice referral",
+            "in-Network Provider"
+          ],
+          "entity_refs": [
+            "MCP",
+            "Member",
+            "Provider"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "CalOptima Health shall ensure Managed Care Plan Members are referred to hospice services in a timely manner, with a target of within 24 hours of request from in-Network hospice Providers.",
+            "source_text": "Medi-Cal primary Members may access Hospice Care within twenty-four (24) hours of Notification of Hospice request.",
+            "page": 3,
+            "metadata": {
+              "topic_keywords": [
+                "timely access",
+                "hospice referral",
+                "in-Network Provider"
+              ],
+              "entity_refs": [
+                "MCP",
+                "Member",
+                "Provider"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "III.B Network Restrictions",
+        "page": 3,
+        "metadata": {
+          "topic_keywords": [
+            "in-Network Provider",
+            "Medically Necessary",
+            "coverage restriction"
+          ],
+          "entity_refs": [
+            "MCP",
+            "Medi-Cal",
+            "Medically Necessary"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "Managed Care Plans may restrict hospice coverage to in-Network Providers, unless Medically Necessary services are not available in-Network under Medi-Cal benefits.",
+            "source_text": "CalOptima Health or its Health Networks, in accordance with the Health Network-specific DOFR, shall be responsible for providing Hospice Care to a Medi-Cal primary Member",
+            "page": 7,
+            "metadata": {
+              "topic_keywords": [
+                "in-Network Provider",
+                "Medically Necessary",
+                "Medi-Cal benefits",
+                "coverage restriction"
+              ],
+              "entity_refs": [
+                "MCP",
+                "Provider",
+                "Medically Necessary",
+                "Medi-Cal"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "IV.A Out-of-Network Hospice Providers",
+        "page": 4,
+        "metadata": {
+          "topic_keywords": [
+            "out-of-Network Provider",
+            "single case agreement",
+            "letter of agreement"
+          ],
+          "entity_refs": [
+            "MCP",
+            "Provider",
+            "Single Case Agreement",
+            "Letter of Agreement"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "For out-of-Network hospice Providers, the Managed Care Plan shall seek an agreement \u2014 such as a Single Case Agreement or Letter of Agreement \u2014 to ensure coverage for the Managed Care Plan Member.",
+            "source_text": "A Hospice Provider shall be responsible for services related to the Member\u2019s Terminal Illness, including, but not limited to, pharmacy, physician, social services, nursing, home health aide services",
+            "page": 7,
+            "metadata": {
+              "topic_keywords": [
+                "out-of-Network Provider",
+                "single case agreement",
+                "letter of agreement",
+                "hospice care"
+              ],
+              "entity_refs": [
+                "Provider",
+                "MCP",
+                "Single Case Agreement",
+                "Letter of Agreement"
+              ]
+            }
+          },
+          {
+            "claim": "Agreements between Managed Care Plans and out-of-Network hospice Providers require the Provider to follow the MCP's documentation and Medical Necessity coverage policies.",
+            "source_text": "If a hospice provider does not provide adequate clinical documentation or documents do not substantiate the need for General Inpatient Care, the CalOptima Health Medical Director may reduce the Level of Care to Routine Home Care.",
+            "page": 4,
+            "metadata": {
+              "topic_keywords": [
+                "documentation requirement",
+                "coverage policy",
+                "Medical Necessity",
+                "out-of-Network Provider"
+              ],
+              "entity_refs": [
+                "Provider",
+                "MCP",
+                "Medical Necessity"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "V.A Prior Authorization and Utilization Review",
+        "page": 5,
+        "metadata": {
+          "topic_keywords": [
+            "Prior Authorization",
+            "utilization review",
+            "hospice care",
+            "Fraud Waste and Abuse"
+          ],
+          "entity_refs": [
+            "MCP",
+            "Prior Authorization",
+            "Fraud Waste and Abuse"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "Prior Authorization is required by the Managed Care Plan for all hospice services regardless of level of care or benefit period.",
+            "source_text": "CalOptima Health shall not require prior authorization for Hospice Care services under Routine Home Care, Continuous Home Care, and Respite Care levels of Hospice Care.",
+            "page": 3,
+            "metadata": {
+              "topic_keywords": [
+                "Prior Authorization",
+                "hospice services",
+                "utilization control"
+              ],
+              "entity_refs": [
+                "MCP",
+                "Prior Authorization"
+              ]
+            }
+          },
+          {
+            "claim": "Managed Care Plans shall review hospice documentation to detect and prevent Fraud, Waste, and Abuse.",
+            "source_text": "A Hospice Provider shall submit Notification of Hospice election immediately and no later than thirty (30) calendar days after start of services.",
+            "page": 9,
+            "metadata": {
+              "topic_keywords": [
+                "documentation review",
+                "Fraud Waste and Abuse",
+                "compliance monitoring"
+              ],
+              "entity_refs": [
+                "MCP",
+                "Fraud Waste and Abuse"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "code": "PA.5052",
+      "file_path": "ENG #4/Public Policies/PA/PA.5052_20250221.pdf",
+      "title": "Utensil Cleaning Guidelines for Nutritional Services",
+      "department": "CalOptima Health PACE",
+      "section": "Not Applicable",
+      "applicable_to": [
+        "PACE"
+      ],
+      "effective_date": "2013-10-01",
+      "revised_date": "2025-02-01",
+      "ceo_approval": "/s/ Michael Hunn 02/21/2025",
+      "document_topics": [
+        "utensil cleaning",
+        "nutritional services",
+        "PACE Center",
+        "food safety",
+        "sanitation audits",
+        "multi-use utensils",
+        "bactericidal chemical",
+        "dishwashing machines",
+        "rinse temperatures",
+        "spray-type ware washers",
+        "mechanical washing"
+      ],
+      "entity_refs": [
+        "CalOptima Health PACE",
+        "PACE Center",
+        "Participants",
+        "Department of Health Care Services",
+        "DHCS",
+        "National Sanitation Foundation",
+        "American National Standards Institute",
+        "No.3",
+        "Title 22, California Code of Regulations",
+        "\u00a7\u00a776381",
+        "78329",
+        "United States Public Health Service",
+        "USPHS",
+        "Food and Drug Administration",
+        "2013 Food Code",
+        "\u00a74-501.110"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "II. POLICY",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "safe environment",
+            "food preparation",
+            "utensil disinfection"
+          ],
+          "entity_refs": [
+            "CalOptima Health PACE Center",
+            "Participants"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "CalOptima Health PACE Centers must serve meals in a clean and safe environment at all times.",
+            "source_text": "CalOptima Health PACE Centers shall serve meals in a clean and safe environment at all times.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "safe environment",
+                "meal serving"
+              ],
+              "entity_refs": [
+                "CalOptima Health PACE Center"
+              ]
+            }
+          },
+          {
+            "claim": "CalOptima Health PACE Centers must ensure all utensils used to prepare and serve food to Participants are thoroughly disinfected after each use.",
+            "source_text": "CalOptima Health PACE Centers shall ensure all utensils that are used to prepare and serve food to Participants are thoroughly disinfected after each use.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "utensil disinfection",
+                "food preparation"
+              ],
+              "entity_refs": [
+                "CalOptima Health PACE Center",
+                "Participants"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "III.A. CalOptima Health PACE Center utensil cleaning guidelines",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "multi-use utensils",
+            "scraping and pre-rinsing",
+            "hot water washing",
+            "bactericidal chemical immersion",
+            "temperature requirements"
+          ],
+          "entity_refs": [
+            "Department of Health Care Services",
+            "DHCS"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "Multi-use utensils used for eating, drinking, preparing, and serving of food and drink must be cleaned after each use.",
+            "source_text": "Multi-use utensils used for eating, drinking, preparing and serving of food and drink shall be cleaned after each use.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "multi-use utensils",
+                "cleaning frequency"
+              ],
+              "entity_refs": []
+            }
+          },
+          {
+            "claim": "Food particles must be removed from utensils by scraping and pre-rinsing in running water.",
+            "source_text": "Food particles shall be removed by scraping and pre-rinsing in running water.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "scraping and pre-rinsing",
+                "food particles"
+              ],
+              "entity_refs": []
+            }
+          },
+          {
+            "claim": "Multi-use utensils not washed by mechanical means must be thoroughly washed in hot water with a minimum temperature of 43\u00baC/110\u00baF using soap or detergent.",
+            "source_text": "Multi-use utensils not washed by mechanical means shall be thoroughly washed in hot water with a minimum temperature of 43\u00baC/110\u00baF using soap, or detergent.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "hot water washing",
+                "minimum temperature",
+                "soap or detergent"
+              ],
+              "entity_refs": []
+            }
+          },
+          {
+            "claim": "Multi-use utensils not washed by mechanical means must be disinfected by immersion in water containing a bactericidal chemical approved by the Department of Health Care Services (DHCS).",
+            "source_text": "They shall be rinsed in hot water and disinfected by one (1) of the following methods, or equivalent: a. Immersion in water containing bactericidal chemical approved by the Department of Health Care Services (DHCS).",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "bactericidal chemical",
+                "immersion disinfection"
+              ],
+              "entity_refs": [
+                "Department of Health Care Services",
+                "DHCS"
+              ]
+            }
+          },
+          {
+            "claim": "Multi-use utensils not washed by mechanical means may be disinfected by immersion for at least two minutes in clean water at 77\u00baC/170\u00baF.",
+            "source_text": "Immersion for at least two (2) minutes in clean water at 77\u00baC/170\u00baF.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "immersion duration",
+                "hot water disinfection"
+              ],
+              "entity_refs": []
+            }
+          },
+          {
+            "claim": "Multi-use utensils not washed by mechanical means may be disinfected by immersion for at least thirty seconds in clean water at 82\u00baC/180\u00baF.",
+            "source_text": "Immersion for at least thirty (30) seconds in clean water at 82\u00baC/180\u00baF.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "immersion duration",
+                "hot water disinfection"
+              ],
+              "entity_refs": []
+            }
+          },
+          {
+            "claim": "After disinfection, utensils must be allowed to drain and dry in racks or baskets on nonabsorbent surfaces.",
+            "source_text": "After disinfection, the utensils shall be allowed to drain and dry in racks, or baskets, on nonabsorbent surfaces.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "drying racks",
+                "nonabsorbent surfaces"
+              ],
+              "entity_refs": []
+            }
+          },
+          {
+            "claim": "Drying cloths must not be used on utensils after disinfection.",
+            "source_text": "Drying cloths shall not be used.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "drying cloths"
+              ],
+              "entity_refs": []
+            }
+          }
+        ]
+      },
+      {
+        "heading": "III.A.5. Dishwashing Machine Requirements",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "dishwashing machines",
+            "spray-type ware washers",
+            "wash solution temperature"
+          ],
+          "entity_refs": [
+            "National Sanitation Foundation",
+            "American National Standards Institute",
+            "No.3"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "Results obtained with dishwashing machines must be equal to those obtained by the manual cleaning methods specified in the CalOptima Health PACE guidelines.",
+            "source_text": "Results obtained with dishwashing machines shall be equal to those obtained by the methods outlined above",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "dishwashing machines",
+                "performance standards"
+              ],
+              "entity_refs": []
+            }
+          },
+          {
+            "claim": "All dishwashing machines must meet the requirements contained in the National Sanitation Foundation, American National Standards Institute, No.3.",
+            "source_text": "all dishwashing machines shall meet the requirements contained in the National Sanitation Foundation, American National Standards Institute, No.3.",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "dishwashing machines",
+                "sanitation standards"
+              ],
+              "entity_refs": [
+                "National Sanitation Foundation",
+                "American National Standards Institute",
+                "No.3"
+              ]
+            }
+          },
+          {
+            "claim": "The temperature of the wash solution in spray-type ware washers that use chemicals to sanitize may not be less than 49\u00baC/120\u00baF.",
+            "source_text": "The temperature of the wash solution in the spray-type ware washers that use chemicals to sanitize may not be less than 49\u00baC/120\u00baF.",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "wash solution temperature",
+                "spray-type ware washers"
+              ],
+              "entity_refs": []
+            }
+          }
+        ]
+      },
+      {
+        "heading": "III.B-C. Recording and Compliance Audits",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "daily log",
+            "rinse temperatures",
+            "sanitation audits",
+            "compliance reporting"
+          ],
+          "entity_refs": [
+            "CalOptima Health PACE",
+            "CalOptima Health PACE Quality Improvement Department"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "The CalOptima Health PACE kitchen employee must record the rinse temperatures in a daily log.",
+            "source_text": "The CalOptima Health PACE kitchen employee shall record the rinse temperatures in a daily log.",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "rinse temperatures",
+                "daily log"
+              ],
+              "entity_refs": [
+                "CalOptima Health PACE"
+              ]
+            }
+          },
+          {
+            "claim": "The CalOptima Health PACE Dietician or designee must conduct periodic food safety and sanitation audits to ensure compliance.",
+            "source_text": "The CalOptima Health PACE Dietician or designee, shall conduct periodic food safety and sanitation audits to ensure compliance",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "food safety",
+                "sanitation audits"
+              ],
+              "entity_refs": [
+                "CalOptima Health PACE"
+              ]
+            }
+          },
+          {
+            "claim": "The CalOptima Health PACE Dietician or designee must report any food safety audit issues for follow-up action to the CalOptima Health PACE Quality Improvement Department.",
+            "source_text": "report any issues for follow-up action to the CalOptima Health PACE Quality Improvement Department.",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "follow-up action",
+                "compliance reporting"
+              ],
+              "entity_refs": [
+                "CalOptima Health PACE Quality Improvement Department"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "code": "GG.1550",
+      "file_path": "ENG #4/Public Policies/GG/GG.1550_CEO20240523.pdf",
+      "title": "Palliative Care Services",
+      "department": "Medical Management",
+      "section": "Utilization Management",
+      "applicable_to": [
+        "Medi-Cal",
+        "OneCare"
+      ],
+      "effective_date": "2018-01-01",
+      "revised_date": "2024-05-01",
+      "ceo_approval": "/s/ Michael Hunn 05/23/2024",
+      "document_topics": [
+        "palliative care services",
+        "advance care planning",
+        "palliative care eligibility",
+        "pediatric palliative care",
+        "curative care",
+        "serious illness management",
+        "interdisciplinary palliative team",
+        "plan of care",
+        "pain and symptom management",
+        "advance directives",
+        "POLST forms",
+        "Medi-Cal palliative benefit"
+      ],
+      "entity_refs": [
+        "CalOptima Health",
+        "Health Network",
+        "Member",
+        "Palliative Care Provider",
+        "Medi-Cal",
+        "OneCare",
+        "Department of Health Care Services",
+        "DHCS",
+        "Centers for Medicare and Medicaid Services",
+        "CMS",
+        "Senate Bill 1004",
+        "SB 1004",
+        "POLST",
+        "Primary Care Provider"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "II. POLICY",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "palliative care",
+            "eligibility",
+            "curative care",
+            "medically necessary",
+            "plan of care"
+          ],
+          "entity_refs": [
+            "CalOptima Health",
+            "Health Network",
+            "Palliative Care Provider",
+            "Member"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "CalOptima Health provides Palliative Care services to Members in accordance with Senate Bill (SB) 1004, DHCS contractual requirements, and CMS guidance.",
+            "source_text": "CalOptima Health shall provide Palliative Care services to Members as outlined in this Policy, Senate Bill (SB) 1004 and Department of Health Care Services (DHCS) contractual requirements and guidance and the Centers for Medicare and Medicaid Services (CMS).",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "palliative care",
+                "regulatory authority"
+              ],
+              "entity_refs": [
+                "CalOptima Health",
+                "SB 1004",
+                "DHCS",
+                "CMS"
+              ]
+            }
+          },
+          {
+            "claim": "CalOptima Health and its Health Networks must contract with sufficient Providers that have licensed clinical staff with experience or training in Palliative Care.",
+            "source_text": "CalOptima Health and its Health Networks shall contract with sufficient Providers that have licensed clinical staff with experience and/or training in Palliative Care in order to provide appropriate access to Palliative Care services.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "provider network",
+                "palliative care staffing"
+              ],
+              "entity_refs": [
+                "CalOptima Health",
+                "Health Network",
+                "Provider"
+              ]
+            }
+          },
+          {
+            "claim": "A CalOptima Health Member who meets the minimum Palliative Care eligibility criteria may continue to access both Palliative Care and Curative Care until the condition improves, stabilizes, or results in death.",
+            "source_text": "If a Member continues to meet the minimum eligibility criteria described in Section III.A. of this Policy or the pediatric Palliative Care eligibility criteria described in Section III.B. of this Policy, he or she may continue to access both Palliative Care and Curative Care until the condition improves, stabilizes, or results in death.",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "concurrent palliative and curative care",
+                "eligibility continuation"
+              ],
+              "entity_refs": [
+                "Member",
+                "Palliative Care Provider"
+              ]
+            }
+          },
+          {
+            "claim": "Palliative Care services under CalOptima Health include Advance Care Planning, including documented discussions addressing Advance Directives such as Physician Orders for Life-Sustaining Treatment (POLST).",
+            "source_text": "Advanced Care Planning, including documented discussions between a physician or other qualified healthcare professional and a Member, family member, or legally recognized decision-maker. Counseling that occurs during these discussions shall address, but not be limited to, Advance Directives, such as Physician Orders for Life-Sustaining Treatment (POLST).",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "advance care planning",
+                "advance directives",
+                "POLST"
+              ],
+              "entity_refs": [
+                "POLST",
+                "Member"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

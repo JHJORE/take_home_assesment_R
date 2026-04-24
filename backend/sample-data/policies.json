@@ -1,0 +1,221 @@
+[
+  {
+    "meta": {
+      "code": "GG.1205",
+      "file_path": "ENG #4/Public Policies/GG/GG.1205_CEO20241010_v20241001.pdf",
+      "title": "HEDIS\u00ae Data Collection and Reporting",
+      "department": "Medical Management",
+      "section": "Quality Analytics",
+      "applicable_to": [
+        "Medi-Cal",
+        "OneCare",
+        "PACE"
+      ],
+      "effective_date": "2004-09-01",
+      "revised_date": "2024-10-01",
+      "ceo_approval": "/s/ Michael Hunn 10/10/2024",
+      "document_topics": [
+        "HEDIS",
+        "quality reporting",
+        "MCAS performance measures",
+        "NCQA accreditation"
+      ],
+      "entity_refs": [
+        "APL 24-004",
+        "DHCS",
+        "CMS",
+        "NCQA",
+        "HEDIS"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "II.A HEDIS Compliance",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "HEDIS",
+            "compliance"
+          ],
+          "entity_refs": [
+            "CMS",
+            "DHCS"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "HEDIS data collection and reporting for Medi-Cal and OneCare must comply with CMS and DHCS requirements.",
+            "source_text": "HEDIS\u00ae data collection and reporting for Medi-Cal, and OneCare programs shall comply with CMS and DHCS requirements",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "HEDIS",
+                "compliance",
+                "CMS",
+                "DHCS"
+              ],
+              "entity_refs": [
+                "CMS",
+                "DHCS"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "III.A Quality Analytics Activities",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "HEDIS lead",
+            "DHCS liaison"
+          ],
+          "entity_refs": [
+            "DHCS"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "The Plan designates a HEDIS lead and a back-up as liaison to DHCS.",
+            "source_text": "Provide DHCS with one (1) designated and back-up contact to serve as CalOptima Health\u2019s HEDIS\u00ae lead",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "HEDIS lead",
+                "DHCS liaison"
+              ],
+              "entity_refs": [
+                "DHCS"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "meta": {
+      "code": "HH.2014",
+      "file_path": "ENG #4/Public Policies/HH/HH.2014_CEO20241119_v20241107.pdf",
+      "title": "Compliance Program",
+      "department": "Office of Compliance",
+      "section": null,
+      "applicable_to": [
+        "Medi-Cal",
+        "OneCare",
+        "PACE",
+        "Administrative"
+      ],
+      "effective_date": "2008-08-01",
+      "revised_date": "2024-11-07",
+      "ceo_approval": "/s/ Michael Hunn 11/19/2024",
+      "document_topics": [
+        "compliance program",
+        "compliance officer",
+        "code of conduct",
+        "fraud waste and abuse",
+        "HIPAA"
+      ],
+      "entity_refs": [
+        "DHCS",
+        "CMS",
+        "Compliance Officer",
+        "Compliance Plan",
+        "Board of Directors"
+      ]
+    },
+    "sections": [
+      {
+        "heading": "II.C Annual Compliance Program Review",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "compliance program",
+            "annual review"
+          ],
+          "entity_refs": [
+            "Compliance Program",
+            "Compliance Plan"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "Annual review and update of the Compliance Program is required.",
+            "source_text": "CalOptima Health shall review and update the Compliance Program, including the Compliance Plan",
+            "page": 1,
+            "metadata": {
+              "topic_keywords": [
+                "compliance program",
+                "annual review"
+              ],
+              "entity_refs": [
+                "Compliance Program",
+                "Compliance Plan"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "II.E Compliance Officer",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "compliance officer",
+            "independence"
+          ],
+          "entity_refs": [
+            "Compliance Officer"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "The Compliance Officer is a full-time employee who does not serve in both a compliance and operational role.",
+            "source_text": "The Compliance Officer is a full-time employee of CalOptima Health and is considered independent, which means they do not serve in both a compliance and operational role",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "compliance officer",
+                "independence"
+              ],
+              "entity_refs": [
+                "Compliance Officer"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "II.F Non-substantive Revisions",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "compliance plan",
+            "board approval"
+          ],
+          "entity_refs": [
+            "Compliance Plan",
+            "Board of Directors"
+          ]
+        },
+        "claims": [
+          {
+            "claim": "Minor, non-substantive revisions to the Compliance Plan may be made without Board of Directors approval.",
+            "source_text": "may update and make minor, non-substantive revisions to the Compliance Plan without the need to obtain Board of Directors approval",
+            "page": 2,
+            "metadata": {
+              "topic_keywords": [
+                "compliance plan",
+                "board approval"
+              ],
+              "entity_refs": [
+                "Compliance Plan",
+                "Board of Directors"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

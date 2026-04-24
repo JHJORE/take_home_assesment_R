@@ -1,0 +1,232 @@
+[
+  {
+    "question_number": 1,
+    "question_claim": {
+      "claim": "MCPs must collect and report HEDIS data in compliance with CMS and DHCS requirements.",
+      "source_text": "HEDIS data collection and reporting shall comply with CMS and DHCS requirements",
+      "page": null,
+      "metadata": {
+        "topic_keywords": [
+          "HEDIS",
+          "CMS",
+          "DHCS"
+        ],
+        "entity_refs": [
+          "APL 24-004",
+          "CMS",
+          "DHCS"
+        ]
+      }
+    },
+    "best_match": {
+      "policy_code": "GG.1205",
+      "section": "II.A HEDIS Compliance",
+      "policy_file_path": "ENG #4/Public Policies/GG/GG.1205_CEO20241010_v20241001.pdf",
+      "policy_title": "HEDIS\u00ae Data Collection and Reporting",
+      "confidence": 95,
+      "rationale": "Section II.A explicitly requires HEDIS data collection and reporting for Medi-Cal and OneCare to comply with CMS and DHCS requirements. This is near-verbatim coverage of the regulator's ask \u2014 the P&P phrases the obligation as a noun clause where the questionnaire phrases it as a verbal requirement, but the scope and subject match exactly.",
+      "policy_claim": {
+        "claim": "HEDIS data collection and reporting for Medi-Cal and OneCare must comply with CMS and DHCS requirements.",
+        "source_text": "HEDIS\u00ae data collection and reporting for Medi-Cal, and OneCare programs shall comply with CMS and DHCS requirements",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "HEDIS",
+            "compliance"
+          ],
+          "entity_refs": [
+            "CMS",
+            "DHCS"
+          ]
+        }
+      }
+    },
+    "contradictions": []
+  },
+  {
+    "question_number": 2,
+    "question_claim": {
+      "claim": "The Plan must name a primary and back-up HEDIS lead who serves as liaison to DHCS.",
+      "source_text": "a designated and back-up HEDIS lead",
+      "page": null,
+      "metadata": {
+        "topic_keywords": [
+          "HEDIS lead",
+          "DHCS liaison"
+        ],
+        "entity_refs": [
+          "DHCS"
+        ]
+      }
+    },
+    "best_match": {
+      "policy_code": "GG.1205",
+      "section": "III.A Quality Analytics Activities",
+      "policy_file_path": "ENG #4/Public Policies/GG/GG.1205_CEO20241010_v20241001.pdf",
+      "policy_title": "HEDIS\u00ae Data Collection and Reporting",
+      "confidence": 88,
+      "rationale": "Procedure \u00a7III.A(2) directs Quality Analytics to provide DHCS with a designated and back-up contact acting as HEDIS lead and DHCS liaison. This covers the questionnaire on both counts \u2014 primary contact and back-up \u2014 and the liaison framing matches what a regulator expects to see when naming a point of accountability.",
+      "policy_claim": {
+        "claim": "The Plan provides DHCS with a designated and back-up HEDIS lead contact.",
+        "source_text": "Provide DHCS with one (1) designated and back-up contact to serve as CalOptima Health\u2019s HEDIS\u00ae lead",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "HEDIS lead",
+            "DHCS liaison"
+          ],
+          "entity_refs": [
+            "DHCS"
+          ]
+        }
+      }
+    },
+    "contradictions": []
+  },
+  {
+    "question_number": 3,
+    "question_claim": {
+      "claim": "Minor, non-substantive revisions to the Compliance Plan require prior Board of Directors approval.",
+      "source_text": "minor, non-substantive revisions to the Compliance Plan require Board of Directors approval",
+      "page": null,
+      "metadata": {
+        "topic_keywords": [
+          "compliance plan",
+          "board approval"
+        ],
+        "entity_refs": [
+          "APL 23-030",
+          "Compliance Plan",
+          "Board of Directors"
+        ]
+      }
+    },
+    "best_match": null,
+    "contradictions": [
+      {
+        "policy_code": "HH.2014",
+        "section": "II.F Non-substantive Revisions",
+        "policy_file_path": "ENG #4/Public Policies/HH/HH.2014_CEO20241119_v20241107.pdf",
+        "policy_title": "Compliance Program",
+        "confidence": 84,
+        "rationale": "Section II.F explicitly allows minor, non-substantive revisions WITHOUT Board of Directors approval \u2014 directly opposite to what the questionnaire requires. The P&P carve-out should be reconciled with APL 23-030 before the next audit.",
+        "policy_claim": {
+          "claim": "The Compliance Officer may make minor, non-substantive revisions to the Compliance Plan without Board of Directors approval.",
+          "source_text": "may update and make minor, non-substantive revisions to the Compliance Plan without the need to obtain Board of Directors approval",
+          "page": 2,
+          "metadata": {
+            "topic_keywords": [
+              "compliance plan",
+              "board approval"
+            ],
+            "entity_refs": [
+              "Compliance Plan",
+              "Board of Directors"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "question_number": 4,
+    "question_claim": {
+      "claim": "The Compliance Officer must be independent and must not serve in both a compliance and operational role.",
+      "source_text": "the Compliance Officer is considered independent and does not serve in both a compliance and operational role",
+      "page": null,
+      "metadata": {
+        "topic_keywords": [
+          "compliance officer",
+          "independence"
+        ],
+        "entity_refs": [
+          "APL 23-030",
+          "Compliance Officer"
+        ]
+      }
+    },
+    "best_match": {
+      "policy_code": "HH.2014",
+      "section": "II.E Compliance Officer",
+      "policy_file_path": "ENG #4/Public Policies/HH/HH.2014_CEO20241119_v20241107.pdf",
+      "policy_title": "Compliance Program",
+      "confidence": 97,
+      "rationale": "Section II.E.b uses effectively the same language the questionnaire requires: full-time, independent, and explicitly prohibited from dual compliance and operational roles. The stance is definitional rather than aspirational, which is exactly what a regulator auditing this line of the questionnaire would expect to see in a Compliance Program P&P.",
+      "policy_claim": {
+        "claim": "The Compliance Officer is a full-time, independent employee and does not serve in both a compliance and operational role.",
+        "source_text": "The Compliance Officer is a full-time employee of CalOptima Health and is considered independent, which means they do not serve in both a compliance and operational role",
+        "page": 2,
+        "metadata": {
+          "topic_keywords": [
+            "compliance officer",
+            "independence",
+            "dual role"
+          ],
+          "entity_refs": [
+            "Compliance Officer"
+          ]
+        }
+      }
+    },
+    "contradictions": []
+  },
+  {
+    "question_number": 5,
+    "question_claim": {
+      "claim": "Employees reporting suspected compliance violations must be protected from retaliation.",
+      "source_text": "protect employees reporting suspected compliance violations from retaliation",
+      "page": null,
+      "metadata": {
+        "topic_keywords": [
+          "whistleblower",
+          "retaliation"
+        ],
+        "entity_refs": [
+          "APL 23-030"
+        ]
+      }
+    },
+    "best_match": null,
+    "contradictions": []
+  },
+  {
+    "question_number": 6,
+    "question_claim": {
+      "claim": "The Compliance Program must be reviewed and updated at least annually.",
+      "source_text": "shall refresh the Compliance Program at minimum once per year",
+      "page": null,
+      "metadata": {
+        "topic_keywords": [
+          "compliance program",
+          "annual review"
+        ],
+        "entity_refs": [
+          "APL 23-030"
+        ]
+      }
+    },
+    "best_match": {
+      "policy_code": "HH.2014",
+      "section": "II.C Annual Compliance Program Review",
+      "policy_file_path": "ENG #4/Public Policies/HH/HH.2014_CEO20241119_v20241107.pdf",
+      "policy_title": "Compliance Program",
+      "confidence": 75,
+      "rationale": "Section II.C covers the requirement \u2014 the Compliance Program is reviewed and updated \u201cno less than annually\u201d \u2014 but the phrasing drifts from the questionnaire's \u201crefresh... once per year.\u201d Same cadence, different wording.",
+      "policy_claim": {
+        "claim": "The Compliance Program is reviewed and updated no less than annually.",
+        "source_text": "CalOptima Health shall review and update the Compliance Program, including the Compliance Plan",
+        "page": 1,
+        "metadata": {
+          "topic_keywords": [
+            "compliance program",
+            "annual review"
+          ],
+          "entity_refs": [
+            "Compliance Program"
+          ]
+        }
+      }
+    },
+    "contradictions": []
+  }
+]

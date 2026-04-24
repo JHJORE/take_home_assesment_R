@@ -1,0 +1,234 @@
+[
+  {
+    "number": 1,
+    "text": "Does the P&P require that HEDIS data collection and reporting for Medi-Cal and OneCare programs comply with CMS and DHCS requirements?",
+    "reference": "APL 24-004",
+    "candidate_codes": [
+      "GG.1205"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal",
+        "OneCare"
+      ],
+      "reference": "APL 24-004",
+      "question_topics": [
+        "HEDIS",
+        "regulatory compliance",
+        "reporting"
+      ]
+    },
+    "claims": [
+      {
+        "claim": "MCPs must collect and report HEDIS data in compliance with CMS and DHCS requirements.",
+        "source_text": "HEDIS data collection and reporting shall comply with CMS and DHCS requirements",
+        "page": null,
+        "metadata": {
+          "topic_keywords": [
+            "HEDIS",
+            "CMS",
+            "DHCS"
+          ],
+          "entity_refs": [
+            "APL 24-004",
+            "CMS",
+            "DHCS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "text": "Does the P&P require the Plan to designate a primary and back-up HEDIS lead as a liaison with DHCS?",
+    "reference": "APL 24-004",
+    "candidate_codes": [
+      "GG.1205"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal"
+      ],
+      "reference": "APL 24-004",
+      "question_topics": [
+        "HEDIS lead",
+        "DHCS liaison"
+      ]
+    },
+    "claims": [
+      {
+        "claim": "The Plan must name a primary and back-up HEDIS lead who serves as liaison to DHCS.",
+        "source_text": "a designated and back-up HEDIS lead",
+        "page": null,
+        "metadata": {
+          "topic_keywords": [
+            "HEDIS lead",
+            "DHCS liaison",
+            "back-up contact"
+          ],
+          "entity_refs": [
+            "DHCS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "text": "Does the P&P establish that minor, non-substantive revisions to the Compliance Plan require prior Board of Directors approval before taking effect?",
+    "reference": "APL 23-030",
+    "candidate_codes": [
+      "HH.2014"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal",
+        "OneCare",
+        "PACE",
+        "Administrative"
+      ],
+      "reference": "APL 23-030",
+      "question_topics": [
+        "compliance plan",
+        "board approval",
+        "governance"
+      ]
+    },
+    "claims": [
+      {
+        "claim": "Minor, non-substantive revisions to the Compliance Plan require prior Board of Directors approval.",
+        "source_text": "minor, non-substantive revisions to the Compliance Plan require Board of Directors approval",
+        "page": null,
+        "metadata": {
+          "topic_keywords": [
+            "compliance plan",
+            "board approval",
+            "non-substantive revisions"
+          ],
+          "entity_refs": [
+            "APL 23-030",
+            "Compliance Plan",
+            "Board of Directors"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "text": "Does the P&P require the Compliance Officer to be independent of operational functions and not serve in a dual compliance-and-operations role?",
+    "reference": "APL 23-030",
+    "candidate_codes": [
+      "HH.2014"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal",
+        "OneCare",
+        "PACE",
+        "Administrative"
+      ],
+      "reference": "APL 23-030",
+      "question_topics": [
+        "compliance officer",
+        "independence",
+        "dual role"
+      ]
+    },
+    "claims": [
+      {
+        "claim": "The Compliance Officer must be independent and must not serve in both a compliance and operational role.",
+        "source_text": "the Compliance Officer is considered independent and does not serve in both a compliance and operational role",
+        "page": null,
+        "metadata": {
+          "topic_keywords": [
+            "compliance officer",
+            "independence",
+            "dual role"
+          ],
+          "entity_refs": [
+            "APL 23-030",
+            "Compliance Officer"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "text": "Does the P&P establish whistleblower protections that prohibit retaliation against employees who report suspected compliance violations?",
+    "reference": "APL 23-030",
+    "candidate_codes": [
+      "HH.2014"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal",
+        "OneCare",
+        "PACE",
+        "Administrative"
+      ],
+      "reference": "APL 23-030",
+      "question_topics": [
+        "whistleblower",
+        "retaliation",
+        "reporting"
+      ]
+    },
+    "claims": [
+      {
+        "claim": "Employees reporting suspected compliance violations must be protected from retaliation.",
+        "source_text": "protect employees reporting suspected compliance violations from retaliation",
+        "page": null,
+        "metadata": {
+          "topic_keywords": [
+            "whistleblower",
+            "retaliation protection"
+          ],
+          "entity_refs": [
+            "APL 23-030"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "text": "Does the P&P require the Compliance Program to be reviewed and updated at least annually?",
+    "reference": "APL 23-030",
+    "candidate_codes": [
+      "HH.2014"
+    ],
+    "metadata": {
+      "lob": [
+        "Medi-Cal",
+        "OneCare",
+        "PACE",
+        "Administrative"
+      ],
+      "reference": "APL 23-030",
+      "question_topics": [
+        "compliance program",
+        "annual review",
+        "update cadence"
+      ]
+    },
+    "claims": [
+      {
+        "claim": "The Compliance Program must be reviewed and updated at least annually.",
+        "source_text": "shall refresh the Compliance Program at minimum once per year",
+        "page": null,
+        "metadata": {
+          "topic_keywords": [
+            "compliance program",
+            "annual review"
+          ],
+          "entity_refs": [
+            "APL 23-030",
+            "Compliance Program"
+          ]
+        }
+      }
+    ]
+  }
+]

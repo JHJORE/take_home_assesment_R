@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: oklch(98.5% 0.004 240);
+  --color-surface-raised: oklch(100% 0 0);
+  --color-ink: oklch(22% 0.02 240);
+  --color-ink-muted: oklch(50% 0.015 240);
+  --color-ink-faint: oklch(70% 0.01 240);
+  --color-rule: oklch(90% 0.008 240);
+  --color-rule-strong: oklch(82% 0.012 240);
+
+  --color-accent: oklch(58% 0.09 195);
+  --color-accent-ink: oklch(32% 0.06 195);
+  --color-accent-wash: color-mix(in oklch, oklch(58% 0.09 195) 18%, transparent);
+  --color-accent-wash-strong: color-mix(
+    in oklch,
+    oklch(58% 0.09 195) 32%,
+    transparent
+  );
+
+  --color-warn: oklch(72% 0.13 70);
+  --color-warn-ink: oklch(44% 0.11 55);
+  --color-warn-wash: color-mix(in oklch, oklch(72% 0.13 70) 20%, transparent);
+
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: "Literata", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.625rem;
+  --text-2xl: 2.125rem;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  font-size: var(--text-base);
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.panel-swap {
+  animation: fadeUp 160ms cubic-bezier(0.2, 0, 0, 1);
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* react-pdf-viewer overrides: match our clinical palette and remove its
+   default chrome so the PDF feels native inside the panel. */
+.readily-pdf-shell .rpv-core__viewer {
+  background: var(--color-surface);
+}
+.readily-pdf-shell .rpv-core__inner-pages {
+  background: var(--color-surface);
+}
+.readily-pdf-shell .rpv-core__page-layer {
+  box-shadow: 0 1px 3px rgba(10, 20, 40, 0.05), 0 0 0 1px var(--color-rule);
+  margin: 14px auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-rule);
+  border: 3px solid var(--color-surface);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-rule-strong);
+}
