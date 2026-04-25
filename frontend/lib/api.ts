@@ -17,7 +17,7 @@ async function fetchJson<T>(path: string): Promise<T> {
   return (await res.json()) as T;
 }
 
-export function getInfo(): Promise<TInfo> {
+function getInfo(): Promise<TInfo> {
   return fetchJson<TInfo>("/info");
 }
 
@@ -25,7 +25,7 @@ export function getQuestions(): Promise<TQuestion[]> {
   return fetchJson<TQuestion[]>("/questions");
 }
 
-export function getPolicies(): Promise<TPolicyDoc[]> {
+function getPolicies(): Promise<TPolicyDoc[]> {
   return fetchJson<TPolicyDoc[]>("/policies");
 }
 
@@ -37,12 +37,6 @@ export function getResults(
       ? `?question_number=${encodeURIComponent(questionNumber)}`
       : "";
   return fetchJson<TQuestionClaimResult[]>(`/results${qs}`);
-}
-
-export function getResultsForQuestion(
-  questionNumber: number,
-): Promise<TQuestionClaimResult[]> {
-  return getResults(questionNumber);
 }
 
 export type Row = {

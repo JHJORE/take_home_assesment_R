@@ -1,9 +1,10 @@
 """Two-call questionnaire decomposition.
 
-One call ingests + extracts statements for every question; one call disambiguates
-all statements at once with the full source document as context. Swap-in
-replacement for the old `ingest_questions` + per-question `extract_question_claims`
-loop (which made ~1 + 4*N calls).
+Call 1 ingests the questionnaire PDF and emits every question with its atomic
+statements and question-level metadata in a single structured response. Call 2
+takes the same source document plus all extracted statements and returns
+disambiguated text for each. Total cost is fixed at two LLM calls regardless of
+how many questions or statements the questionnaire contains.
 """
 
 from __future__ import annotations

@@ -18,9 +18,7 @@ def test_extract_claims_returns_claims_from_structured_response():
             ]
         },
         # stage 2: one disambiguate per statement
-        {
-            "disambiguated": "MCPs must provide hospice services on Member election."
-        },
+        {"disambiguated": "MCPs must provide hospice services on Member election."},
         {"disambiguated": "Hospice coverage includes two 90-day periods."},
     )
     claims = extract_claims(
@@ -72,9 +70,7 @@ def test_extract_claims_compound_question_splits_and_flips_interrogative():
                 },
             ]
         },
-        {
-            "disambiguated": "MCPs must provide hospice services to Members who elect hospice care."
-        },
+        {"disambiguated": "MCPs must provide hospice services to Members who elect hospice care."},
         {
             "disambiguated": "Hospice coverage is provided in two 90-day periods followed by unlimited 60-day periods."
         },

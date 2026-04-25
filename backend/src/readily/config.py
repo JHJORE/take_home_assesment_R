@@ -22,7 +22,6 @@ class Settings(BaseSettings):
     )
 
     gemini_api_key: str = Field(..., alias="GEMINI_API_KEY")
-    anthropic_api_key: str | None = Field(default=None, alias="ANTHROPIC_API_KEY")
 
     data_dir: Path = Field(default=Path("data"))
     sample_data_dir: Path = Field(
