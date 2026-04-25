@@ -11,6 +11,8 @@ services:
         value: "3.12"
       - key: GEMINI_API_KEY
         value: demo
+      - key: DATA_DIR
+        value: /opt/render/project/src/data
       - key: CORS_ORIGINS
         sync: false
 
