@@ -31,7 +31,10 @@ def list_policies(settings: SettingsDep) -> list[PolicyDoc]:
 def get_policy_pdf(code: str, settings: SettingsDep) -> FileResponse:
     for doc in _load(settings):
         if doc.meta.code == code:
-            pdf_path = Path(doc.meta.file_path)
+            raw = Path(doc.meta.file_path)
+            # file_path in policies.json is relative to the repo root;
+            # resolve from data_dir's parent so it works regardless of CWD.
+            pdf_path = raw if raw.is_absolute() else settings.data_dir.parent / raw
             if not pdf_path.exists():
                 raise HTTPException(
                     status_code=404,
