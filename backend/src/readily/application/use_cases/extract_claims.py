@@ -6,6 +6,7 @@ from readily.domain.entities import Claim, ClaimMetadata
 from readily.infrastructure.llm.gemini import GeminiClient
 from readily.infrastructure.llm.prompts import DISAMBIGUATE_PROMPT, EXTRACT_STATEMENTS_PROMPT
 
+
 class ExtractedStatement(BaseModel):
     claim: str
     source_text: str

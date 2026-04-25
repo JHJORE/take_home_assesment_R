@@ -55,9 +55,8 @@ class GoogleGeminiClient:
         # The preview endpoint occasionally drops the connection before sending
         # headers. The SDK's built-in retry ignores RemoteProtocolError, so we
         # retry it ourselves with exponential backoff.
-        delays = [1.0, 3.0, 8.0]
-        last_exc: Exception | None = None
-        for delay in [0.0, *delays]:
+        delays = [0.0, 1.0, 3.0, 8.0]
+        for attempt, delay in enumerate(delays):
             if delay:
                 time.sleep(delay)
             try:
@@ -65,7 +64,6 @@ class GoogleGeminiClient:
                     model=self._model, contents=prompt, config=config
                 )
                 return resp.parsed
-            except RemoteProtocolError as exc:
-                last_exc = exc
-        assert last_exc is not None
-        raise last_exc
+            except RemoteProtocolError:
+                if attempt == len(delays) - 1:
+                    raise

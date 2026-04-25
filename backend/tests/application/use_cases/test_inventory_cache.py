@@ -55,7 +55,6 @@ def test_build_inventory_calls_llm_once_per_new_pdf(tmp_path: Path, monkeypatch)
     assert len(client.calls) == 2, "one LLM call per new PDF"
     assert cache_path.exists()
     data = json.loads(cache_path.read_text())
-    assert data["version"] == 1
     assert len(data["entries"]) == 2
     assert all("hash" in e for e in data["entries"])
 

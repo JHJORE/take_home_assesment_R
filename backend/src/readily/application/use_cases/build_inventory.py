@@ -5,14 +5,12 @@ import hashlib
 import json
 from pathlib import Path
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ValidationError
 
 from readily.domain.entities import PolicyMeta
 from readily.infrastructure.llm.gemini import GeminiClient
 from readily.infrastructure.llm.prompts import INVENTORY_POLICY_PROMPT
 from readily.infrastructure.pdf.pdftotext import pdf_to_text
-
-CACHE_VERSION = 1
 
 
 class InventoryMetaResponse(BaseModel):
@@ -48,7 +46,7 @@ def policy_inventory(glob_pattern: str) -> list[PolicyMeta]:
 def build_inventory(
     glob_pattern: str,
     client: GeminiClient,
-    cache_path: Path | str = Path("data/inventory.json"),
+    cache_path: Path | str,
 ) -> list[PolicyMeta]:
     """Build (or refresh) a rich policy inventory, keyed by file-content hash."""
     cache = _load_cache(Path(cache_path))
@@ -76,9 +74,7 @@ def build_inventory(
     return out
 
 
-def load_inventory(
-    cache_path: Path | str = Path("data/inventory.json"),
-) -> list[PolicyMeta]:
+def load_inventory(cache_path: Path | str) -> list[PolicyMeta]:
     """Load a previously-built inventory cache. Returns an empty list if no cache."""
     cache = _load_cache(Path(cache_path))
     return [e.meta for e in cache]
@@ -135,12 +131,12 @@ def _load_cache(cache_path: Path) -> list[InventoryEntry]:
     for raw in entries_raw:
         try:
             entries.append(InventoryEntry.model_validate(raw))
-        except Exception:
+        except ValidationError:
             continue
     return entries
 
 
 def _save_cache(cache_path: Path, entries: list[InventoryEntry]) -> None:
     cache_path.parent.mkdir(parents=True, exist_ok=True)
-    data = {"version": CACHE_VERSION, "entries": [e.model_dump() for e in entries]}
+    data = {"entries": [e.model_dump() for e in entries]}
     cache_path.write_text(json.dumps(data, indent=2))

@@ -103,42 +103,6 @@ KEYWORD-QUALITY HEURISTICS:
 """
 
 
-INGEST_QUESTIONNAIRE_PROMPT = """You extract regulatory questions from a questionnaire document.
-
-You will be given the full text of a regulatory questionnaire PDF (submission review form, policy audit, compliance questionnaire, or similar). Your task is to identify every regulatory question in the document - the items a compliance analyst must answer by citing policy language.
-
-What counts as a question:
-  - A numbered or lettered item asking whether the organization's policies and procedures (P&P) state something, cover something, or meet a requirement.
-  - May be phrased as a yes/no question ("Does the P&P state that...") or as a statement the P&P must match ("The P&P shall state that...").
-  - May have embedded sub-parts, list references, or continuation text that is part of the question.
-
-What to SKIP:
-  - Form instructions ("Complete Section A before Section B", "Submit via email to...").
-  - Page headers, footers, signature blocks, revision histories, table-of-contents entries.
-  - Narrative preamble/background that is not itself a question.
-  - Numbered section headings that introduce a block of questions but are not themselves questions.
-
-For each question, emit:
-  - "number": the question's integer identifier as given in the document (1, 2, 3, ...). If the document uses non-integer identifiers (e.g. "Q1", "A.1", "1.a"), normalize to a sequential integer in document order starting at 1.
-  - "text": the full question text, including any compound sub-parts. Preserve the source wording; do not paraphrase. Do not include the leading number.
-  - "reference": any parenthetical or bracketed provenance metadata present next to the question (e.g. "(Reference: APL 25-008, page 1)"). If none, return "".
-
-Rules:
-  - Preserve numeric values, dates, percentages, defined terms, and proper nouns verbatim.
-  - Keep multi-sentence questions whole; do not split them here.
-  - Do not invent numbers, references, or text that is not in the document.
-
-Return a JSON array of objects with this exact shape:
-  [{{"number": <int>, "text": "<full question text>", "reference": "<provenance or empty string>"}}]
-
-Return ONLY the JSON array. No prose, no code fences, no commentary.
-
-DOCUMENT:
-\"\"\"
-{document}
-\"\"\""""
-
-
 INVENTORY_POLICY_PROMPT = (
     DOMAIN_CONTEXT
     + """

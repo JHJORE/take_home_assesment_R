@@ -1,10 +1,6 @@
 import { notFound } from "next/navigation";
 
-import {
-  getQuestions,
-  getResultsForQuestion,
-  getSources,
-} from "@/lib/api";
+import { getQuestions, getResults, getSources } from "@/lib/api";
 import { PolicyPanel } from "@/components/PolicyPanel";
 import { UploadGate } from "@/components/UploadGate";
 
@@ -19,7 +15,7 @@ export default async function QuestionPage({
 
   const [questions, results, sources] = await Promise.all([
     getQuestions(),
-    getResultsForQuestion(number),
+    getResults(number),
     getSources(),
   ]);
 
