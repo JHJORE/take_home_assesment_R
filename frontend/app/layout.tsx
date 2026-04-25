@@ -33,8 +33,8 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const [rows, sources] = await Promise.all([
-    getQuestionRows(),
-    getSources(),
+    getQuestionRows().catch(() => []),
+    getSources().catch(() => ({ policies: [], usingSample: false })),
   ]);
 
   const counts = rows.reduce(

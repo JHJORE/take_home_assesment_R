@@ -14,7 +14,7 @@ services:
       - key: DATA_DIR
         value: /opt/render/project/src/data
       - key: CORS_ORIGINS
-        sync: false
+        value: https://readily-web.onrender.com
 
   - type: web
     name: readily-web
@@ -27,4 +27,4 @@ services:
       - key: NODE_VERSION
         value: "20"
       - key: NEXT_PUBLIC_API_BASE_URL
-        sync: false
+        value: https://readily-api.onrender.com
